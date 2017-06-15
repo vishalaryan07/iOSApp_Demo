@@ -418,14 +418,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tavant Technologies Inc (93ZK4B4MRX)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vishal Ranjan (FWNYQMJ92Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vishal Ranjan (FWNYQMJ92Z)";
 				DEVELOPMENT_TEAM = 93ZK4B4MRX;
 				INFOPLIST_FILE = "iOSApp Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tavant.iosapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4c4e8fbe-6f9d-4201-8e50-594d8de41486";
-				PROVISIONING_PROFILE_SPECIFIER = "com.tavant.iosapp AppStore";
+				PROVISIONING_PROFILE = "dba60a7d-186f-47d9-8fad-82cc2c0f41f7";
+				PROVISIONING_PROFILE_SPECIFIER = "Generic Profile";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -439,11 +441,12 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tavant Technologies Inc (93ZK4B4MRX)";
 				DEVELOPMENT_TEAM = 93ZK4B4MRX;
 				INFOPLIST_FILE = "iOSApp Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tavant.iosapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4c4e8fbe-6f9d-4201-8e50-594d8de41486";
-				PROVISIONING_PROFILE_SPECIFIER = "com.tavant.iosapp AppStore";
+				PROVISIONING_PROFILE = "8aa45eca-a51c-458a-81c3-575b1a954eb7";
+				PROVISIONING_PROFILE_SPECIFIER = "iOSApp AppStore";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
